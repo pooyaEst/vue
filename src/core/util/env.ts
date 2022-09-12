@@ -86,7 +86,7 @@ let _Set // $flow-disable-line
 
 export interface SimpleSet {
   has(key: string | number): boolean
-  add(key: string | number): any
+  add(key: string | number): void
   clear(): void
 }
 
